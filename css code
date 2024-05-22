@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(night.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    
+
+}
+.ctn :hover{
+    border: palevioletred;
+    background-color: palevioletred;
+}
+.header-content{
+    margin-bottom: 150px;
+    text-align:center ;
+    color: whitesmoke;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: deeppink;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ctn{
+    padding: 8px 15px;
+    background-color:deeppink ;
+    border-radius: 30px;
+    color: whitesmoke;
+
+}
+/* Navbar */
+.navbar{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
